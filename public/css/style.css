@@ -2,7 +2,11 @@ h1 {
     text-align: center;
     color: cornflowerblue;
   }
+  h2 {
+    text-align: center;
+    color: cornflowerblue;
+  }
 
   img{
-    width:200px;
+    height: 300px;
   }
