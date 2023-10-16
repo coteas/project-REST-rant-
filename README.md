@@ -21,3 +21,10 @@ User stories are most often phrased as: "As a \_**\_(user type)\_\_\_** I need \
 |  POST   |  /places/:id/rant         |  Create a rant (comment) about a particular place   |
 |  DELETE |  /places/:id/rant/:rantId |  Delete a rant (comment) about a particular place   |
 |  GET    |    *                      |  404 page (matches any route not defined above)     |
+
+
+Places:
+| Name       | City       |  State      | Cuisines      |
+| :--------: | :--------: | :---------: | :-----------: |
+| String     | String     | String      | String        |
+
