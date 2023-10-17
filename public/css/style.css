@@ -10,3 +10,42 @@ h1 {
   img{
     height: 300px;
   }
+  nav {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+nav ul {
+  text-align: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+  padding-right: 80px;
+  text-align: center;
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+  text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+main {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
