@@ -13,7 +13,8 @@ function show (data) {
             <h2>Rating</h2>
             <p>Not rated</p>
             <h2>Description</h2>
-            <p>No description yet</p>
+            <p>{data.place.city}, {data.place.state}</p>
+            <p>{data.place.cuisines}</p>
             <h2>Comments</h2>
             <p>No comments yet!</p>
             {/* Edit and Delete buttons */}

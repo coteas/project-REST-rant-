@@ -77,6 +77,7 @@ router.get('/new', (req, res) => {
   
   
   
+  
     router.post('/', (req, res) => {
     if (!req.body.pic) {
       // Default image if one is not provided
