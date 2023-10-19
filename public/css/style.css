@@ -7,9 +7,7 @@ h1 {
     color: cornflowerblue;
   }
 
-  img{
-    height: 300px;
-  }
+
   nav {
     background-color: cornflowerblue;
     padding: 10px;
@@ -48,4 +46,32 @@ main {
   margin-right: 20px;
   margin-left: 20px;
   background-color: white;
+}
+
+img {
+  width: 400px;
+}
+
+button {
+  margin: 10px;
+}
+
+.images-for-landing img{
+  display: flex;
+  width: 550px;
+  padding: 20px;
+position: absolute;
+}
+
+.data-ins{
+
+  margin-left: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.buttons{
+  display: inline-block;
+  margin: auto;
 }
