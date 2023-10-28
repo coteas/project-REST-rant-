@@ -34,7 +34,6 @@ router.get('/:id', (req, res) => {
   })
 })
 
-
 router.get('/:id', (req, res) => {
   res.send('GET /places/:id stub')
 })
