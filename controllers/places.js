@@ -51,6 +51,7 @@ router.get('/:id', (req, res) => {
         })
 })
 
+//update route
 router.put('/:id', (req, res) => {
     db.Place.findByIdAndUpdate(req.params.id, req.body)
         .then(() => {
@@ -62,6 +63,7 @@ router.put('/:id', (req, res) => {
         })
 })
 
+//delete
 router.delete('/:id', (req, res) => {
     db.Place.findByIdAndDelete(req.params.id)
         .then(() => {
