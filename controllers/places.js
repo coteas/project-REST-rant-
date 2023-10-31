@@ -73,6 +73,8 @@ router.delete('/:id', (req, res) => {
         })
 })
 
+
+//edit
 router.get('/:id/edit', (req, res) => {
     db.Place.findById(req.params.id)
         .then(place => {
@@ -83,6 +85,7 @@ router.get('/:id/edit', (req, res) => {
         })
 })
 
+//comment
 router.post('/:id/comment', (req, res) => {
     console.log('post comment', req.body)
     if (req.body.author === '') { req.body.author = undefined }
